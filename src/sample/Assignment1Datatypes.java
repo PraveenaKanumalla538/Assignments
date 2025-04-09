@@ -33,7 +33,7 @@ public class Assignment1Datatypes {
         // 8. Occupation
         String occupation = "Software Engineer";
         System.out.println("Occupation: " + occupation);
-        // 9. Favourite color
+        // 9. Favourite color 	
         String favoriteColor = "Blue";
         System.out.println("Favourite Color: " + favoriteColor);
         // 10. Current year
@@ -41,7 +41,7 @@ public class Assignment1Datatypes {
         System.out.println("Current Year: " + currentYear);
 
         // 11. Social media followers
-        int followers = 1000000;
+        String followers ="1,000,000";
         System.out.println("Followers: " + followers);
         // 12. Movie rating
         float movieRating = 7.5f;

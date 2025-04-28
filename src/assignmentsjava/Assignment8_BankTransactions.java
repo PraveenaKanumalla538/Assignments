@@ -2,6 +2,7 @@ package assignmentsjava;
 
 public class Assignment_BankTransactions {
 		    public static void main(String[] args) {
+		    	
 	        int[] transactions = {50000, -2000, 3000, -15000, 200, -300, 4000, -3000};
 
 	        int creditCount = 0;
@@ -16,7 +17,7 @@ public class Assignment_BankTransactions {
 	                totalCredit += amount;
 	            } else {
 	                debitCount++;
-	                totalDebit += amount; // totalDebit will be negative
+	                totalDebit += amount; // totalDebit - negative
 	            }
 
 	            if (amount >= 10000 || amount <= -10000) {

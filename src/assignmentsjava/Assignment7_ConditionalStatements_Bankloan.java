@@ -12,7 +12,7 @@ public class Assignment7_ConditionalStatements_Bankloan {
 
 		    	        boolean isEligible = false;
 
-		    	        if (creditScore > 750) {
+		    	     if (creditScore > 750) {
 		    	            isEligible = true; // Loan automatically approved
 		    	        } else if (creditScore >= 650 && creditScore <= 750) {
 		    	            // Additional checks required
@@ -21,22 +21,22 @@ public class Assignment7_ConditionalStatements_Bankloan {
 		    	                    if (debtToIncomeRatio < 40) {
 		    	                        isEligible = true; // Loan approved
 		    	                    } else {
-		    	                        isEligible = false; // Loan denied due to high DTI
+		    	                              isEligible = false; // Loan rejected due to high DTI
 		    	                    }
 		    	                } else {
-		    	                    isEligible = false; // Loan denied due to unemployment
+		    	                    isEligible = false; // Loan rejected due to unemployment
 		    	                }
 		    	            } else {
-		    	                isEligible = false; // Loan denied due to low income
+		    	                isEligible = false;   //Loan rejected  due to low income
 		    	            }
 		    	        } else {
-		    	            isEligible = false; // Loan denied due to low credit score
+		    	            isEligible = false;   // Loan rejected  due to low credit score
 		    	        }
 
-		    	        if (isEligible) {
+		    	       if (isEligible) {
 		    	            System.out.println(customerName + " is eligible for the loan.");
 		    	        } else {
-		    	            System.out.println(customerName + " is NOT eligible for the loan.");
+		    	            System.out.println(customerName + " is nOT eligible for the loan.");
 		    	        }
 		    	    }
 			   	}

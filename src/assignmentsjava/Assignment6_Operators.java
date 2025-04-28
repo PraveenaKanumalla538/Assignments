@@ -1,6 +1,6 @@
 package assignmentsjava;
 class Students{
-	//Initializing variables student names, Student Marks
+//Initializing variables student names, Student Marks
 		String Student1= "Suresh";
 		String Student2= "Mahesh";
 		String Student3= "Naresh";
@@ -14,7 +14,7 @@ public class Assignment6_Operators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Storing the Students names and marks in 2 arrays
+ // Storing the Students names and marks in 2 arrays
 Students s1= new Students();
 String[] names = new String[3];
 int marks[] = new int[3];

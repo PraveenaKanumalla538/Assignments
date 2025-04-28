@@ -1,6 +1,6 @@
 package assignmentsjava;
 
-public class Assignment_BankTransactions {
+public class Assignment8_BankTransactions {
 		    public static void main(String[] args) {
 		    	
 	        int[] transactions = {50000, -2000, 3000, -15000, 200, -300, 4000, -3000};
@@ -28,7 +28,7 @@ public class Assignment_BankTransactions {
 
 	        int remainingBalance = totalCredit + totalDebit;
 
-	        System.out.println("\nSummary:");
+	        System.out.println("Summary:");
 	        System.out.println("Total number of credit transactions: " + creditCount);
 	        System.out.println("Total number of debit transactions: " + debitCount);
 	        System.out.println("Total credited amount: " + totalCredit);

@@ -10,8 +10,7 @@ public class Assignment8_BankTransactions {
 	        int totalCredit = 0;
 	        int totalDebit = 0;
 	        int suspiciousCount = 0;
-
-	        for (int amount : transactions) {
+	               for (int amount : transactions) {
 	            if (amount > 0) {
 	                creditCount++;
 	                totalCredit += amount;

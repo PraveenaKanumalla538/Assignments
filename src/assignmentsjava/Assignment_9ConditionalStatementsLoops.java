@@ -12,7 +12,7 @@ public class Assignment_9ConditionalStatementsLoops {
 		        double[] experiences = {5.1, 3.2, 7.1, 10.2, 2.4};
 		        double[] ratings = {4.2, 3.8, 4.5, 2.5, 3.5};
 
-		        // Result Map
+		        // map result
 		        Map<String, Double> hikePercentageMap = new HashMap<>();
 
 		        for (int i = 0; i < names.length; i++) {
@@ -23,15 +23,16 @@ public class Assignment_9ConditionalStatementsLoops {
 		            double variablePayPercent = 0;
 		            double bonus = 0;
 
-		            // Determine variable pay % and bonus based on rating
+		            // to confirm variable pay % and bonus based on rating
+		            
 		            if (rating >= 4.0) {
 		                variablePayPercent = 15.0;
 		                bonus = 1500;
 		            } else if (rating >= 3.0 && rating < 4.0) {
-		                variablePayPercent = 10.0;
+		               variablePayPercent = 10.0;
 		                bonus = 1200;
 		            } else {
-		                variablePayPercent = 3.0;
+		               variablePayPercent = 3.0;
 		                bonus = 300;
 		            }
 
@@ -50,7 +51,7 @@ public class Assignment_9ConditionalStatementsLoops {
 		        // Print the hike percentages
 		        System.out.println("Employee Hike Percentages:");
 		        for (Map.Entry<String, Double> entry : hikePercentageMap.entrySet()) {
-		            System.out.println(entry.getKey() + " => " + String.format("%.2f", entry.getValue()) + "%");
+		            System.out.println(entry.getKey() + " = " + String.format("%.2f", entry.getValue()) + "%");
 		        }
 		    }
 		} 

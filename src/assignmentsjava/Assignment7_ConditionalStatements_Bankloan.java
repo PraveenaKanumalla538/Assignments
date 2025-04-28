@@ -24,19 +24,19 @@ public class Assignment7_ConditionalStatements_Bankloan {
 		    	                        isEligible = false; // Loan rejected due to high DTI
 		    	                    }
 		    	                } else {
-		    	                    isEligible = false; // Loan denied due to unemployment
+		    	                    isEligible = false; // Loan rejected  due to unemployment
 		    	                }
 		    	            } else {
-		    	                isEligible = false; // Loan denied due to low income
+		    	                isEligible = false; // Loan rejected due to low income
 		    	            }
 		    	        } else {
-		    	            isEligible = false; // Loan denied due to low credit score
+		    	            isEligible = false; // Loan rejected due to low credit score
 		    	        }
 
 		    	        if (isEligible) {
 		    	            System.out.println(customerName + " is eligible for the loan.");
 		    	        } else {
-		    	            System.out.println(customerName + " is NOT eligible for the loan.");
+		    	            System.out.println(customerName + " is not eligible for the loan.");
 		    	        }
 		    	    }
 			   	}

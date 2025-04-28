@@ -12,7 +12,7 @@ public class Assignment7_ConditionalStatements_Bankloan {
 
 		    	        boolean isEligible = false;
 
-		    	        if (creditScore > 750) {
+		    	     if (creditScore > 750) {
 		    	            isEligible = true; // Loan automatically approved
 		    	        } else if (creditScore >= 650 && creditScore <= 750) {
 		    	            // Additional checks required
@@ -33,7 +33,7 @@ public class Assignment7_ConditionalStatements_Bankloan {
 		    	            isEligible = false; // Loan rejected due to low credit score
 		    	        }
 
-		    	        if (isEligible) {
+		    	       if (isEligible) {
 		    	            System.out.println(customerName + " is eligible for the loan.");
 		    	        } else {
 		    	            System.out.println(customerName + " is not eligible for the loan.");
@@ -42,3 +42,4 @@ public class Assignment7_ConditionalStatements_Bankloan {
 			   	}
 			   	
 }
+s

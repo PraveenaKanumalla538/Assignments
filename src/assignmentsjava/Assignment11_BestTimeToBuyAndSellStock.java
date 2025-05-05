@@ -11,16 +11,17 @@ public class Assignment11_BestTimeToBuyAndSellStock {
 		        int maxProfit = 0;
 
 		        for (int i = 1; i < prices.length; i++) {
-		            // Update minPrice if a lower price is found
+		        	
+		            // Update min price if a lower price is found
 		            if (prices[i] < minPrice) {
 		                minPrice = prices[i];
 		            }
-		            // Calculate profit and update maxProfit if it's better
+		            // Calculate profit and update maxProfit if it's 
 		            else if (prices[i] - minPrice > maxProfit) {
 		                maxProfit = prices[i] - minPrice;
 		            }
 		        }
-
+		        
 		        return maxProfit;
 		    }
 
